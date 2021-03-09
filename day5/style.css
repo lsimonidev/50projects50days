@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black ;
+}
+
+.bg {
+    background: url(https://s2.glbimg.com/XjVO82d3CRKWSUAQp4aUZjNCfbw=/smart/e.glbimg.com/og/ed/f/original/2019/06/26/simone-de-beauvoir-livros-002.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(0px);
+    position: relative;
+    z-index: -1;
+}
+
+.loading-text{
+    color: #FFF;
+    font-size: 3rem;
+    position: fixed;
+}
